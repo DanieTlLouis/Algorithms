@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/ConvexHull.exe.dir/main.cpp.o  -o ConvexHull.exe 

@@ -1,0 +1,138 @@
+﻿Daniel Louis 
+Algorithms 
+Project 2 : part 3
+
+
+Complete the following 4 tables:
+Table 1-1 Running time in millisecond for case 1 (points are within a circle)
+n*
+	Running time
+	Graham Scan
+	Jarvis March
+	Quickhull
+	10
+	 0.007s
+	0.007s 
+	0.009s 
+	1000
+	0.006s 
+	0.007s 
+	 0.015s
+	10,000
+	 0.039s
+	 0.036s
+	 0.062s
+	100,000
+	 0.132s
+	 0.142s
+	 0.598s
+	1,000,000
+	0.939s 
+	 1.630s
+	7.098s 
+	·       Use larger values for n if your computer is too fast to measure the running time difference for the above suggested values of n.
+ 
+      Table 1-2 Running time in millisecond for case 2 (points are on a circle)
+n*
+	Running time
+	Graham Scan
+	Jarvis March
+	Quickhull
+	10
+	0.007s
+	0.006s
+	0.005s
+	1000
+	0.003s
+	0.023s
+	0.041s
+	10,000
+	0.015s
+	0.067s
+	0.131s
+	100,000
+	0.105s
+	0.394s
+	1.288s
+	1,000,000
+	0.808s
+	3.699s
+	12.524s
+	 
+      Table 1-3 Running time in millisecond for case 3 (points are within a rectangle)
+n*
+	Running time
+	Graham Scan
+	Jarvis March
+	Quickhull
+	10
+	 0.007s
+	0.002s 
+	0.009s 
+	1000
+	0.007s 
+	0.012s 
+	0.017s 
+	10,000
+	0.041s 
+	0.014s
+	0.043s 
+	100,000
+	 0.108s
+	0.099s 
+	0.152s 
+	1,000,000
+	 0.948s
+	0.737s 
+	 0.823s
+	 
+     Table 1-4 Running time in millisecond for case 3 (points are within a triangle)
+n*
+	Running time
+	Graham Scan
+	Jarvis March
+	Quickhull
+	10
+	 0.010s
+	0.006s 
+	0.007s 
+	1000
+	 0.011s
+	0.009s 
+	 0.015s
+	10,000
+	 0.017s
+	 0.034s
+	 0.046s
+	100,000
+	 0.128s
+	 0.255s
+	 0.139s
+	1,000,000
+	 0.895s
+	 0.501s
+	0.514s 
+	 
+(b)   What’s the asymptotic time complexity of the three algorithms? Complete the following table:
+ 
+	Running time complexity
+	Graham Scan
+	Jarvis March
+	Quickhull
+	Best case
+	 O(n log n)
+	 O(n)
+	O(n) 
+	Average case
+	 O(n log n)
+	O(n log n) 
+	O(n log n) 
+	Worst case
+	 O()
+	 O(n log n)
+	 O()
+	 
+(c)    Does your empirical analysis match with your theoretical analysis? Justify your answer.
+ 
+ 
+ My empirical analysis does not match my theoretical analysis since the quickhull is supposed to be faster than the other two algorithms, however, it was slower on average then both other algorithms. This is because the quickhull would need to create more containers to hold the smaller hulls in them so the algorithm is forcing the machine to allocate more memory then the other two. When comparing the Graham scan and the Jarvis march the empirical evidence is proven to be true because the jarvis march was faster on average then the Graham scan except for the instance when the Jarvis march was at its worst case which allowed the Graham scan to perform better. This worst case was having all points be on a circle so the Jarvis march is a lot  slower, however, it still was not as slow as the quickhull when doing this circle hull.

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dan/Downloads/Univerity of Akron/Semester 4/Algorithms/ProjectTwo/main.cpp
+string
+-
+iostream
+-
+stdlib.h
+-
+vector
+-
+fstream
+-
+stack
+-
+
