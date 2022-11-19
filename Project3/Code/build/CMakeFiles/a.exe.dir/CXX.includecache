@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dan/Downloads/Univerity of Akron/Semester 4/Algorithms/ProjectThree/main.cpp
+iostream
+-
+fstream
+-
+vector
+-
+string
+-
+
