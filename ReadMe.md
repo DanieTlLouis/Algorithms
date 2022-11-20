@@ -26,5 +26,5 @@ This repository consists of notes and projects to the Algorithms course from The
 |:------------:|:--------------------:|:-------------------------------------:|:----------------------------------:|
 
 ## Notes
-* [01/15/2019](/Notes/01_15_2019.md)
+* [01/14/2019](/Notes/01_14_2019.md)
 
